@@ -1,12 +1,6 @@
 let btn_rightnow = $(".btn.btn-success.btn-lg")[0]
 let btn_sorry = $(".btn.btn-success.btn-lg")[1]
 let btn_del = $(".btn.btn-danger.btn-lg")[0]
-// let skill = $("tbody")[0]
-// let skill1_num = Number(skill.children[1].cells[2].split(" ")[0])
-// let btn_skill1 = skill.children[1].cells[3]
-// let skill2_num = Number(skill.children[2].cells[2].split(" ")[0])
-// let btn_skill2 = skill.children[2].cells[3]
-// let cur_skill_num = Number($(".col-12.text-center.mt-2")[1].children[1].textContent.split(" ")[1])
 setInterval(() => {
         let skill = $("tbody")[0]
         let skill1_num = Number(skill.children[1].cells[2].textContent.split(" ")[0])
